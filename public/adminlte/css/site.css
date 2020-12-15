@@ -1,0 +1,118 @@
+.l0 {
+    background-color: #dd4b39 !important;
+    padding: .5em 1em;
+}
+
+.l1 {
+    background-color: #5cb85c !important;
+    padding: .5em 1em;
+}
+
+.l2 {
+    background-color: indigo !important;
+    padding: .5em 1em;
+}
+
+.l3 {
+    background-color: blueviolet !important;
+    padding: .5em 1em;
+}
+
+.l4 {
+    background-color: #ff6000 !important;
+    padding: .5em 1em;
+}
+
+.l5 {
+    background-color: darkcyan !important;
+    padding: .5em 1em;
+}
+
+.l6 {
+    background-color: darkgreen !important;
+    padding: .5em 1em;
+}
+
+.l7 {
+    background-color: #666 !important;
+    padding: .5em 1em;
+}
+
+.l8 {
+    background-color: blue !important;
+    padding: .5em 1em;
+}
+
+.breadcrumb1 a.btn-success {
+    padding: 10px 10px 10px 20px;
+}
+
+.btn-breadcrumb .btn.btn-success:not(:last-child):before {
+    border-left: 10px solid #DDD;
+}
+
+.btn-breadcrumb .btn:not(:last-child):before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 21px solid transparent;
+    border-bottom: 21px solid transparent;
+    border-left: 10px solid rgb(173, 173, 173);
+    position: absolute;
+    top: 50%;
+    margin-top: -21px;
+    margin-left: 1px;
+    left: 100%;
+    z-index: 3;
+}
+
+.btn-breadcrumb .btn-success {
+    color: #222;
+    background-color: #FFF;
+    border-color: #ddd;
+    color: darkgreen;
+}
+
+.btn-breadcrumb .btn.btn-success:not(:last-child):after {
+    border-left: 9px solid #FFF;
+}
+
+.btn-breadcrumb .btn:not(:last-child):after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 21px solid transparent;
+    border-bottom: 21px solid transparent;
+    border-left: 10px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -21px;
+    left: 100%;
+    z-index: 3;
+}
+
+.btn-breadcrumb .btn-success:hover {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.btn-breadcrumb .btn.btn-success:hover:not(:last-child):after {
+    border-left: 10px solid #337ab7;
+}
+
+.btn-breadcrumb .active {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.btn-breadcrumb .btn.btn-success.active:not(:last-child):after {
+    border-left: 10px solid #337ab7;
+}
+
+.select2-selection__rendered {
+    margin-top: 0 !important;
+}
